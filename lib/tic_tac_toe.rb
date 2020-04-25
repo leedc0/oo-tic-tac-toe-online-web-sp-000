@@ -54,6 +54,7 @@ class TicTacToe
       move(index, current_player)
       display_board
     else
+      puts "Position taken; enter another number between 1-9"
       turn
     end
   end
